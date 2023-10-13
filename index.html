@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+    <title>Login Dark/Light Mode</title>
+</head>
+
+<body>
+    <main id="container">
+        <form id="login_form">
+            <div id="form_header">
+                <h1>Login</h1>
+
+                <span id="mode_icon" class="material-symbols-outlined">dark_mode</span>
+            </div>
+
+            <div id="social_media">
+                <a href="#"><img src="assets/images/facebook.png" alt="Facebook Logo"></a>
+
+                <a href="#"><img src="assets/images/google.png" alt="Google Logo"></a>
+
+                <a href="#"><img src="assets/images/github.png" alt="Github Logo"></a>
+            </div>
+
+            <div id="inputs">
+
+                <div class="input-box">
+                    <label for="iname">
+                        Name
+                        <div class="input-field">
+                            <span class="material-symbols-outlined">person</span>
+
+                            <input type="text" name="name" id="iname">
+                        </div>
+                    </label>
+                </div>
+
+                <div class="input-box">
+                    <label for="iemail">
+                        E-mail
+                        <div class="input-field">
+                            <span class="material-symbols-outlined">mail</span>
+
+                            <input type="email" name="email" id="iemail">
+                        </div>
+                    </label>
+                </div>
+
+                <div class="input-box">
+                    <label for="ipass">
+                        Password
+                        <div class="input-field">
+                            <span class="material-symbols-outlined">key</span>
+
+                            <input type="password" name="pass" id="ipass">
+                        </div>
+                    </label>
+
+                    <div id="forgot_password">
+                        <a href="#">
+                            Forgot your password?
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <button type="submit" id="login_button">
+                Login
+            </button>
+        </form>
+    </main>
+</body>
+
+</html>
