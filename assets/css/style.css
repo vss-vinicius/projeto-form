@@ -53,14 +53,17 @@ form#login_form {
 }
 
 div#form_header {
+    /*Display stuff*/
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 div#form_header h1 {
-    font-size: 40px;
+    /*Positioning stuff*/
     position: relative;
+    /*Typography stuff*/
+    font-size: 40px;
 }
 
 div#form_header h1::before {
